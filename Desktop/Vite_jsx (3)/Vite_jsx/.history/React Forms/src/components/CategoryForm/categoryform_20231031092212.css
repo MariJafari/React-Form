@@ -1,0 +1,40 @@
+.container {
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+    background-color: aliceblue;
+    padding: 20px 20px 20px 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    min-height: 2em;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    min-height: 2em;
+    margin: 20px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: salmon;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: salmon;
+}
